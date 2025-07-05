@@ -1,1 +1,34 @@
 /* your code here */
+.top{
+	display:flex;
+	flex-direction :row;
+	justify-content:space-between;
+}
+.media-icons nav{
+	display:flex;
+	flex-direction :row;
+	justify-content:right;
+}
+.link-boxes{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+.link-boxes h4{
+	text-decoration:underline;
+}
+.bottom-details{
+	padding:10px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	background-color:gray
+}
+body{
+	background-color:black;
+	color:white;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
